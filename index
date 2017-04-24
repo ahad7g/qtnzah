@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<title>QueensTown</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<style>
+.newspaper {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+</style>
+<style> 
+body {
+    background-image: url("wf1.jpg"), url("img_flwr.jpg");
+    background-color: #F9EEEC;
+}
+</style>
+<head>
+<style>
+.mySlides {display:none;}
+</style>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #C70039  ;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+</style>
+</head>
+<body>
+
+<!--header-top-->
+<div class="w3-container w3-teal">
+  <h1>Queenstown - New Zealand</h1>
+  <p1>Nau-mai-ki-Tahuna</p1>
+
+<div style="text-align:right" >
+  <p>The Adventure Capital of the world</p>
+</div>
+</div>
+<!--header-top-->
+<!--navigation-starts-->
+<div>
+<ul>
+  <li><a class="active" href="home.html">Home</a></li>
+  <li><a href="place.html">Place to visit & Dine</a></li>
+  <li><a href="accommodation.html">Accommodation</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="newsletter.html">NewsLetter</a></li>
+ </ul>
+ </div>
+<!--navigation-end-->
+<!--slideshow-starts-->
+
+<div class="w3-content w3-section" style="max-width:1200px">
+  <img class="mySlides" src="banner1.jpg" style="width:60%">
+  <img class="mySlides" src="banner2.jpg" style="width:60%">
+  <img class="mySlides" src="banner3.jpg" style="width:60%">
+  <img class="mySlides" src="banner4.jpg" style="width:60%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4500); // Change image every 3 seconds
+}
+</script>
+
+
+<!--slideshow-ends-->
+<!--welcome-->
+
+
+
+<div class="newspaper">
+<h2>Queenstown</h2>
+<div>
+<h5>About Queenstown</h5>
+<p>Situated in the heart of the South Island, on the shores of Lake Wakatipu and surrounded by the beautiful Remarkables mountain range.
+
+The town has been regularly rated as one of the world's top tourism destinations, seeing 1.2 million visitors a year.
+
+Queenstown is the Southern Hemisphere's premier four-season alpine and lake resort.
+
+Queenstown was named because '...it was fit for Queen Victoria.' Certainly it's lived up to that expectation. Today it's an exhilarating alpine resort, perfect for both adventurers and leisure seekers. <br><br>
+</p>
+ <h5>QUEENSTOWN HISTORY</h5>
+ <p>William Gilbert Rees was Queenstown's first European settler and the community's founding father. He established the first farm in the Queenstown area in 1860, and played a key role in the gold rush that followed soon after.
+
+Before settlement, Queenstown frequently saw visiting Maori on their quest for greenstone. 
+
+Soon after settlement, Thomas Arthur and Harry Redfern discovered gold in the Shotover River bringing many men and women to the Queenstown site that saw the second largest haul of gold in history as well as the government's purchase of the town.
+
+The year 1900 not only farewelled the gold, but also thousands of settlers, leaving a population of only 200, however, as statistics show today, the current population in Queenstown is 8538.
+ <br>
+ Evidence of stake nets, baskets for catching eels, spears and ashes indicated the Glenorchy area was visited by Maori. It is likely Ngai Tahu Maori visited Queenstown en route to collect Pounamu (greenstone). There was a settlement called Te Kirikiri Pa occupied by the tribe of Kati Mamoe which was situated in the location of the current Queenstown Gardens, but by the time European migrants arrived in the 1860s this settlement was no longer being used.
+</p><br>
+
+<h5>Queenstown today</h5>
+<p>More than 2.9 million guests are attracted to Queenstown every year, including explorers, movie producers, wine devotees, Hollywood and Bollywood stars and US Presidents to make the most of their own exceptional travel experience. <br><br>
+ </p>
+</div>
+
+<div> 
+<h5>Focal Queenstown </h5>
+<p>Focal Queenstown is a refined town with an awesome decision of eateries, an enthusiastic bar scene and great shopping. The beautiful town sits on the edge of Lake Wakatipu and you'll encounter a special vitality and air lasting through the year.</P>
+<div class="news">
+
+<h5>Queenstown weddings and conferences</h5>
+<p>The picturesque surroundings, lively atmosphere and great accommodation options make our alpine region a popular destination for weddings and conferences. From the tops of mountains to grape vines in a local vineyard, Queenstown has a range of venues suitable for weddings or conferences. There also event planners, entertainers, hire companies and caterers located throughout the region to make planning your event easy.</P>
+</div> 
+</div> 
+</div>
+
+<!--welcome-->
+
+<!--multimedia-->
+<div style="text-align:center">
+<h6>Visit Queenstown</h6>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_hhEwyZTgiM" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<!--multimedia-->
+
+<!--events-starts-->
+<div class="events">
+<div class="container">
+<h3><strong>Latest Events</strong></h3>
+<div class="events-grid">
+<div><a href="https://www.queenstownnz.co.nz/things-to-do/events/listing/akarua-arrowtown-autumn-festival" target="_blank">
+<img src="1.jpg" alt="" class="img-responsive">
+<div class="events-pos"> <p>Ends 24 April</p>
+<p><strong>Akarua Arrowtown Autumn Festival</strong>  at Arrowtown,Queenstown</p>
+<p>The Akarua Arrowtown Autumn Festival is aimed at our local & wider community to bring people together to enjoy a variety of fun events.</p>
+</div></a>
+</div>
+
+<div>
+<a href="http://www.queenstown.com/queenstown-events/3303-luma-southern-light-project" target="_blank">
+<div class="events-grid-left-top"> <p>Fri 2 Jun 2017 - Mon 5 Jun 2017</p>
+</div>
+<img src="2.jpg" alt=" " class="img-responsive">
+<div class="events-pos">
+<p><strong>LUMA Southern Light Project</strong>  at Queenstown Gardens</p>
+<p>After thousands were stunned by the inaugural LUMA light festival and events in 2016, LUMA returns to Queenstown. Lighting up in unexpected places and adding a splash of magic to the Queenstown Gardens, LUMA features a wide range of light-themed art, light installations, interactive activities and even a pop-up bar and open-air cinema. </p>
+</div>
+</a>
+</div>
+
+<div>
+<a href="https://www.queenstownnz.co.nz/things-to-do/events/listing/the-royal-queenstown-easter-show-2017" target="_blank">
+<div class="events-grid-left-top">
+<p>Ends 6 June</p>
+</div>
+<img src="3.jpg" alt=" " class="img-responsive">
+<div class="events-pos">
+<p><strong>The Royal Queenstown Easter Show (2017)</strong>  at Earl Street</p>
+<p>In the downstairs gallery, epitomising contemporary New Zealand art, the Royal Queenstown Easter Show features a cross section of exceptional work.</p>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<!--events-ends-->
+<!--footer-starts-->
+<div class="footer">
+<div class="w3-container w3-teal">
+<br>
+<div class="footer-top">
+<form action="#" method="post">
+<input type="text" value="Your Email" name="email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Email';}">
+<input type="submit" value="Subscribe">
+</form>
+<p>  	&#9400 Abdul Ahad <a href="#" target="_blank"></a> </p>
+</div>
+<div class="a-1">
+<p>Visit Queenstown </p>
+
+</div>
+<div class="a-2" style="text-align:right">
+<p><a href="mailto:exampletest@email.com">ahad7g@gmail.com</a></p>
+</div>
+
+
+</div>
+
+</div>
+<!--footer-end-->
+</body>
+</html> 
